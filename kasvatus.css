@@ -1,0 +1,159 @@
+
+body {
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.pildiga_pealkiri {
+position: relative;
+text-align: center;
+color: white;
+width: 100%;
+height: auto;
+}
+
+.põllumaa{
+    width: 100%;
+    height: auto;
+}
+
+.pealkiri {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img {
+border-radius: 10px;
+width: 100%;
+height: auto;
+}
+
+
+h2 {
+font-weight: bold; 
+font-family: monospace;
+font-size: 30px;
+padding-left: 100px;
+}
+
+p {
+font-size: 17px;
+font-family: monospace;
+text-align: left;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+/* Navbar container */
+.navbar {
+overflow: hidden;
+background-color: rgb(0, 0, 0);
+font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.sisukord {
+    display: flex;
+    justify-content: center; /*sisukord keskele*/
+    
+}
+
+.sisukord a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sisukord button {
+background-color: #7eaf46; /* Green background */
+border: 1px solid green; /* Green border */
+color: white; /* White text */
+text-decoration: none;
+padding: 10px 24px; /* Some padding */
+cursor: pointer; /* Pointer/hand icon */
+float: left; /* Float the buttons side by side */
+
+}
+
+.sisukord button:not(:last-child) {
+border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.sisukord:after {
+content: "";
+clear: both;
+display: table;
+}
+
+/* Add a background color on hover */
+.sisukord button:hover {
+background-color: #36cf3b;
+}
