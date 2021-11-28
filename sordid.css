@@ -1,0 +1,160 @@
+.põllumaa{
+    width: 100%;
+    height: auto;
+    top: 0%;
+}
+
+.pealkiri {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+img {
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-weight: bold; 
+    font-family: monospace;
+    font-size: 45px;
+    padding-left: 100px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    font-family: monospace;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial;
+    height: 60px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(253, 121, 45);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sotsmeedia {
+    float: right;
+}
+
+.fa {
+    padding: 0px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.sisukord {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sisukord a {
+    background-color: #5b911e; 
+    border: 2px solid black; 
+    color: white; 
+    text-decoration: none;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 125px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sisukord a:not(:last-child) {
+    border-right: none;
+}
+
+.sisukord:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sisukord a:hover {
+    background-color: #36cf3b;
+}
