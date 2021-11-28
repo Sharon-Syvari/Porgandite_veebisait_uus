@@ -1,159 +1,160 @@
-
-body {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    }
-    
-    .pildiga_pealkiri {
-    position: relative;
-    text-align: center;
-    color: white;
+.põllumaa{
     width: 100%;
     height: auto;
-    }
-    
-    .põllumaa{
-        width: 100%;
-        height: auto;
-    }
-    
-    .pealkiri {
+    top: 0%;
+}
+
+.pealkiri {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    img {
-    border-radius: 10px;
+    color: white;
+}
+
+img {
+    border-radius: 0px;
     width: 100%;
     height: auto;
-    }
-    
-    
-    h2 {
+}
+
+h2 {
     font-weight: bold; 
     font-family: monospace;
-    font-size: 30px;
+    font-size: 45px;
     padding-left: 100px;
-    }
-    
-    p {
-    font-size: 17px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
     font-family: monospace;
     text-align: left;
     padding-left: 100px;
     padding-right: 100px;
-    }
-    
-    /* Navbar container */
-    .navbar {
+}
+
+.navbar {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     font-family: Arial;
-    }
-    
-    /* Links inside the navbar */
-    .navbar a {
+    height: 60px;
+}
+
+.navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    }
-    
-    /* The dropdown container */
-    .dropdown {
+}
+
+.dropdown {
     float: left;
     overflow: hidden;
-    }
-    
-    /* Dropdown button */
-    .dropdown .dropbtn {
-    font-size: 16px;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-    }
-    
-    /* Add a red background color to navbar links on hover */
-    .navbar a:hover, .dropdown:hover .dropbtn {
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(253, 121, 45);
-    }
-    
-    /* Dropdown content (hidden by default) */
-    .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    }
-    
-    /* Links inside the dropdown */
-    .dropdown-content a {
+}
+
+.dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    }
-    
-    /* Add a grey background color to dropdown links on hover */
-    .dropdown-content a:hover {
+}
+
+.dropdown-content a:hover {
     background-color: #ddd;
-    }
-    
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-    }
-    
-    .sisukord {
-        display: flex;
-        justify-content: center; /*sisukord keskele*/
-        
-    }
-    
-    .sisukord a {
-        font-size: 16px;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    .sisukord a {
-    background-color: #7eaf46; /* Green background */
-    border: 1px solid green; /* Green border */
-    color: white; /* White text */
+}
+
+.sotsmeedia {
+    float: right;
+}
+
+.fa {
+    padding: 0px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
     text-decoration: none;
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-    
-    }
-    
-    .sisukord a:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-    }
-    
-    /* Clear floats (clearfix hack) */
-    .sisukord:after {
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.sisukord {
+    width: 57%;
+    margin: 0 auto;
+}
+
+.sisukord a {
+    background-color: #5b911e; 
+    border: 2px solid black; 
+    color: white; 
+    text-decoration: none;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 125px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sisukord a:not(:last-child) {
+    border-right: none;
+}
+
+.sisukord:after {
     content: "";
     clear: both;
     display: table;
-    }
-    
-    /* Add a background color on hover */
-    .sisukord a:hover {
+}
+
+.sisukord a:hover {
     background-color: #36cf3b;
-    }
+}
