@@ -84,7 +84,7 @@ margin: 0; /* Important for vertical align on mobile phones */
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-background-color: red;
+background-color: rgb(253, 121, 45);
 }
 
 /* Dropdown content (hidden by default) */
@@ -131,7 +131,7 @@ display: block;
     text-decoration: none;
 }
 
-.sisukord button {
+.sisukord a {
 background-color: #7eaf46; /* Green background */
 border: 1px solid green; /* Green border */
 color: white; /* White text */
@@ -142,7 +142,7 @@ float: left; /* Float the buttons side by side */
 
 }
 
-.sisukord button:not(:last-child) {
+.sisukord a:not(:last-child) {
 border-right: none; /* Prevent double borders */
 }
 
@@ -154,6 +154,6 @@ display: table;
 }
 
 /* Add a background color on hover */
-.sisukord button:hover {
+.sisukord a:hover {
 background-color: #36cf3b;
 }
